@@ -1,3 +1,109 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald:300&display=swap');
-    h1 { color: #594063; text-align: center; font-family: 'Oswald', Arial, sans-serif; font-weight: lighter;
+@import url('https://fonts.googleapis.com/css?family=Lato|Oswald:300|Roboto&display=swap');
+    h1 { color: #1a4f14; text-align: center; font-family: 'Oswald', Arial, sans-serif; font-weight: lighter;
       }
+    .h1left {
+      color: #1a4f14; text-align: justify; font-family: 'Oswald', Arial, sans-serif; font-weight: lighter;
+    }
+    h2 { color: #1a4f14; text-align: justify; font-family: 'Oswald', Arial, sans-serif; font-weight: lighter; font-size: 24px;
+        }
+    p, li {
+      color: #2b2727; font-family:'Lato', Arial, sans-serif; font-weight: lighter; font-size: 20px; text-align: justify;
+    }
+
+    .highlight {
+        font-size: 24px;
+        color: white;
+        margin: 0px 0%;
+        border: none;
+        opacity: 0.9;
+        width: 70%;
+        padding: 15px;
+
+        background-color: #b0cc54;
+        text-align: justify;
+    }
+
+    .tips {
+        font-size: 20px;
+        color: white;
+        float: right;
+        border: none;
+        opacity: 1;
+        width: 32%;
+        padding: 15px;
+
+        background-color: #b0cc54;
+        text-align: justify;
+    }
+
+    .tipheader{
+      font-family: 'Oswald', Arial, sans-serif;
+    }
+
+    #RecipePage {
+        border-right: 1px solid #e1e3e3;
+        width: 75%;
+        background-color: white;
+
+    }
+
+    a:visited
+    {
+      color: grey;
+    }
+
+      header{
+          width: 100%;
+          margin: 0;
+          overflow: hidden;
+          background-color: white;
+          padding: 20px 10px;
+          border-bottom: 1px solid #f3f7e4;
+      }
+
+      header a{
+        float: left;
+        color: #858f43;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 30px;
+        border-radius: 4px;
+      }
+
+      header a.logo {
+          font-size: 25px;
+          font-weight: bold;
+      }
+
+      header a:hover {
+          background-color: #e2edb9;
+          color: black;
+      }
+
+      header a.active{
+        background-color: #b0cc54;
+        color: white;
+      }
+
+      .header-right{
+            float: right;
+        }
+
+      @media screen and (max-width: 500px) {
+          header a {
+            float: none;
+            display: block;
+            text-align: left;
+          }
+          .tips {
+                float: none;
+                width: 52%;
+                display: block;
+                text-align: left;
+          }
+          .header-right {
+            float: none;
+          }
+        }
